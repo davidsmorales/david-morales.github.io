@@ -9,8 +9,5 @@ redirect_from:
 
 I'm a Ph.D. candidate in economics at the Toulouse School of Economics. My research focuses on labor markets, informality, financial frictions, and firm dynamics. 
 
-d
+Interests
 =======
-
-Example: editing a Markdown file for a talk
-#![Editing a Markdown file for a talk](/images/editing-talk.png) Example of image
