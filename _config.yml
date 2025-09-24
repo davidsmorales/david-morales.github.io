@@ -30,9 +30,7 @@ author:
   location         : "Toulouse"
   employer         : "Toulouse School of Economics"
   uri              : # URL
-  email_user: "david.morales.dfmr"
-  email_domain: "gmail.com"
-  # email            : "david.morales.dfmr@gmail.com" 
+  email            : "david.morales.dfmr@gmail.com" 
 
   # Academic websites
   academia         : # URL

@@ -33,50 +33,9 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
-      {%- comment -%}
-      Determine email user and domain from several possible sources, in order of preference:
-      1. author.email_user + author.email_domain
-      2. author.email (plain) -> split on '@'
-      3. site.author.email (plain) -> split on '@'
-      4. site.author.email_user + site.author.email_domain
-      {%- endcomment -%}
-
-      {% if author.email_user and author.email_domain %}
-        {% assign euser = author.email_user %}
-        {% assign edomain = author.email_domain %}
-      {% elsif author.email %}
-        {% assign parts = author.email | split: "@" %}
-        {% assign euser = parts[0] %}
-        {% assign edomain = parts[1] %}
-      {% elsif site.author.email %}
-        {% assign parts = site.author.email | split: "@" %}
-        {% assign euser = parts[0] %}
-        {% assign edomain = parts[1] %}
-      {% else %}
-        {% assign euser = site.author.email_user %}
-        {% assign edomain = site.author.email_domain %}
+      {% if author.email %}
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
       {% endif %}
-
-      {% if euser and edomain %}
-        <li>
-          <a href="#" class="author-email" data-user="{{ euser }}" data-domain="{{ edomain }}">
-            <i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}
-          </a>
-        </li>
-      {% endif %}
-
-      <script>
-        (function () {
-          if (window.__author_email_handler_added) return;
-          window.__author_email_handler_added = true;
-          document.addEventListener('DOMContentLoaded', function () {
-            document.querySelectorAll('.author-email').forEach(function (el) {
-              var u = el.dataset.user, d = el.dataset.domain;
-              if (u && d) el.href = 'mailto:' + u + '@' + d;
-            });
-          });
-        }());
-      </script>
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
       {% if author.academia %}
