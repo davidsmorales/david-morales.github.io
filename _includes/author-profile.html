@@ -34,8 +34,24 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+        <li>
+          <a href="#" id="reveal-email">
+            <i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>
+            see the e-mail
+          </a>
+        </li>
+        <script>
+          document.addEventListener("DOMContentLoaded", function() {
+            const link = document.getElementById("reveal-email");
+            link.addEventListener("click", function(event) {
+              event.preventDefault();
+              link.textContent = "{{ author.email }}";
+              link.href = "mailto:{{ author.email }}";
+            });
+          });
+        </script>
       {% endif %}
+
 
       <!-- Font Awesome and Academicons icons / Academic websites --> 
       {% if author.academia %}
