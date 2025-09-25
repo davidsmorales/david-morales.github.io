@@ -38,6 +38,14 @@ Welcome to my academic website! I'm a Ph.D. candidate in economics at the Toulou
 ## Work in Progress
 
 ### The Link Between the Labor and Housing Markets
+*(Joint with [Oscar Vilargunter](https://sites.google.com/view/vilargunter/))* 
+
+<details>
+  <summary>Abstract</summary>
+
+  This paper explores the intricate relationship between labor and housing markets, focusing on how housing ownership and regional wage differentials influence labor market dynamics. We develop a two-location job search model where workers are classified by employment and housing ownership status. These workers trade-off between higher wages in urban areas and the corresponding higher housing costs. We highlight the role of homeownership in shaping labor market outcomes, where owning a house affects both the set of feasible jobs and behavior during unemployment, while the employment status influences housing choices, including ownership and location. Our empirical analysis uses a unique dataset with over 59 million observations, combining geolocalized housing data, house transaction data, and rental advertisement indicators in France. We find that homeownership influences both job search behaviors and the likelihood of migration, with owners experiencing lower job destruction rates and migration, while facing higher wages, especially in urban areas. The model captures key patterns such as differences in wages, housing costs, and unemployment across locations and housing ownership status but underperforms in predicting job-finding rates.
+
+</details>
 
 ### Informality as a buffer shock 
 
