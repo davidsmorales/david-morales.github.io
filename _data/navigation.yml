@@ -28,7 +28,7 @@ main:
     
   - title: "CV"
     url: /files/CVDavidMorales.pdf
-    external: true
+    target: "_blank"
     
   # - title: "Guide"
   #   url: /markdown/
