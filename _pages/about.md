@@ -9,11 +9,11 @@ redirect_from:
 
 Welcome to my academic website! I'm a Ph.D. candidate in economics at the Toulouse School of Economics. My research focuses on labor markets, informality, financial frictions, and firm dynamics. 
 
-Research
+# Research
 =======
 
-Working Papers
+## Working Papers
 =======
 
-Work in Progress
+## Work in Progress
 =======
