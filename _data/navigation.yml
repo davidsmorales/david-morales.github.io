@@ -26,9 +26,8 @@ main:
   # - title: "CV"
   #   url: /cv/
     
-  - title: "CV"
-    url: /files/CVDavidMorales.pdf
-    target: "_blank"
+  - title: '<a href="/files/CVDavidMorales.pdf" target="_blank" rel="noopener">CV</a>'
+    url: "#"
     
   # - title: "Guide"
   #   url: /markdown/
