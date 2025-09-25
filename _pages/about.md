@@ -15,7 +15,7 @@ Welcome to my academic website! I'm a Ph.D. candidate in economics at the Toulou
 ## Working Papers
 
 ### Financial Frictions and Informality 
-(Joint with Daniela Puggioni) Abstract
+(Joint with [Daniela Puggioni](https://danielapuggioni.weebly.com/) ) Abstract
 
 ### Why Are Firm Effects More Disperse in Developing Countries? Evidence from Mexico
 (Joint with Matteo Bobba, Tim Ederer, and Luca Flabbi) Abstract
