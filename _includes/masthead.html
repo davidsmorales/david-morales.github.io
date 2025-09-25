@@ -21,12 +21,19 @@
             </li>
           {% endfor %}
 
-          <!-- Force CV link outside navigation.yml -->
+          <!-- Custom Home and Research links -->
+          <li class="masthead__menu-item">
+            <a href="{{ base_path }}/">Home</a>
+          </li>
+          <li class="masthead__menu-item">
+            <a href="{{ base_path }}/research/">Research</a>
+          </li>
+
+          <!-- Force CV link -->
           <li class="masthead__menu-item">
             <a href="{{ base_path }}/files/CVDavidMorales.pdf" target="_blank" rel="noopener noreferrer">CV</a>
           </li>
-          </ul>
-        <ul class="hidden-links hidden"></ul>
+        </ul>
       </nav>
     </div>
   </div>
