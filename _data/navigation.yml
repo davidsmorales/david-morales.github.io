@@ -23,11 +23,12 @@ main:
   # - title: "Blog Posts"
   #   url: /year-archive/
     
-  # - title: "CV"
-  #   url: /cv/
+  - title: "CV"
+    url: /cv/
     
-  - title: '<a href="/files/CVDavidMorales.pdf" target="_blank" rel="noopener">CV</a>'
-    url: "#"
+  # - title: "CV"
+  #   url: /files/CVDavidMorales.pdf
+  #   external: true
     
   # - title: "Guide"
   #   url: /markdown/
