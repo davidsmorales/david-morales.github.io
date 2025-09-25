@@ -27,7 +27,8 @@ main:
   #   url: /cv/
     
   - title: "CV"
-    url: /cv-json/
+    url: /files/CVDavidMorales.pdf
+    external: true
     
   # - title: "Guide"
   #   url: /markdown/
