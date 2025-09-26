@@ -94,7 +94,7 @@ h3 small {
 }
 
 .paper h3 {
-  margin-bottom: 5px; /* reduces gap before abstract */
+  margin-bottom: 2px; /* tighter gap before abstract */
   font-weight: bold;
 }
 
@@ -106,7 +106,14 @@ h3 small {
 .abstract summary {
   cursor: pointer;
   font-weight: 500;
+  margin-top: 0;   /* no extra top margin */
 }
+
+.abstract p {
+  text-align: justify;   /* justify text */
+  margin-top: 5px;       /* small space above paragraph */
+}
+
 
 
 
