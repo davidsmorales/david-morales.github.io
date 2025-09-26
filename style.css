@@ -70,18 +70,19 @@ h1.research-title {
 }
 
 .contact-info {
-  background: none;      
-  padding: 0;            
-  margin: 20px 0;        
-  font-size: 1rem;       
-  color: #333;           
+  background: none;
+  padding: 0;
+  margin: 20px 0;
+  font-size: 1rem;
+  color: #333;
 }
 
 .contact-info a {
-  font-weight: bold;       /* make bold */
-  text-decoration: underline; /* underline "Email" */
-  color: inherit;          
+  font-weight: bold !important;       /* force bold */
+  text-decoration: underline !important; /* force underline */
+  color: inherit !important;          
   cursor: pointer;
 }
+
 
 
