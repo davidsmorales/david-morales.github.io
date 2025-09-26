@@ -89,5 +89,24 @@ h3 small {
   font-size: 0.9em; /* slightly smaller */
 }
 
+.paper {
+  margin-bottom: 30px; /* space between papers */
+}
+
+.paper h3 {
+  margin-bottom: 5px; /* reduces gap before abstract */
+  font-weight: bold;
+}
+
+.paper h3 .coauthors {
+  font-weight: normal;   /* not bold */
+  font-size: 0.95em;     /* slightly smaller than title */
+}
+
+.abstract summary {
+  cursor: pointer;
+  font-weight: 500;
+}
+
 
 
