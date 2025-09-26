@@ -61,10 +61,12 @@ nav a:hover {
   padding-bottom: 10px;
 }
 
-.research-title {
+.papers h1.research-title {
   text-align: center !important;
-  font-size: 3em !important;  /* Try 3.5em if you want much bigger */
+  font-size: 3.5em !important; /* bigger than h2 */
   margin-top: 40px !important;
   margin-bottom: 40px !important;
   font-weight: 700 !important;
+  display: block;
+  width: 100%;
 }
