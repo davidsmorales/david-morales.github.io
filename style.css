@@ -92,13 +92,11 @@ h3 small {
 .paper-title {
   font-weight: bold;
   text-decoration: underline !important;
-  color: inherit; /* black */
+  color: black !important; /* force black */
 }
 
 .coauthors {
-  font-weight: bold;
   font-size: 0.9em;
-  font-weight: normal;
   margin-left: 5px;
 }
 
@@ -110,7 +108,7 @@ h3 small {
 .coauthor {
   font-weight: bold;
   text-decoration: underline !important;
-  color: black;  
+  color: black !important; /* force black */
 }
 
 
