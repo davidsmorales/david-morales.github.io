@@ -84,5 +84,10 @@ h1.research-title {
   cursor: pointer;
 }
 
+h3 small {
+  font-weight: normal;
+  font-size: 0.9em; /* slightly smaller */
+}
+
 
 
