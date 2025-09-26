@@ -70,29 +70,17 @@ h1.research-title {
 }
 
 .contact-info {
-  margin: 20px auto 40px;
-  padding: 20px;
-  max-width: 600px;
-  border-radius: 8px;
-  text-align: left;
+  background: none;       /* removes gray box */
+  padding: 0;             /* no extra padding */
+  margin: 20px 0;         /* spacing consistent with rest */
+  font-size: 1rem;        /* same size as body text */
+  color: #333;            /* normal text color */
 }
 
-.contact-info ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.contact-info a {
+  text-decoration: none;  /* remove underline */
+  color: inherit;         /* same color as normal text */
+  cursor: pointer;
 }
 
-.contact-info li {
-  display: flex;
-  align-items: center;
-  font-size: 1.1em;
-  margin: 10px 0;
-}
-
-.contact-info i {
-  margin-right: 10px;
-  color: #444;
-  font-size: 1.2em;
-}
 
