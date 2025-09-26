@@ -111,6 +111,11 @@ h3 small {
   color: black !important; /* force black */
 }
 
+.abstract p {
+  text-align: justify;
+}
+
+
 
 
 
