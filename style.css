@@ -111,10 +111,14 @@ h3 small {
   color: black !important; /* force black */
 }
 
-.abstract p {
-  margin-top: 5px;
-  text-align: justify;
+.abstract {
+  margin-top: 5px; /* controls space between title and Abstract button */
 }
+
+.abstract p {
+  text-align: justify; /* keeps the abstract text justified */
+}
+
 
 
 
