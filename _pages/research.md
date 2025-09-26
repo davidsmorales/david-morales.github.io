@@ -4,7 +4,7 @@ title: "Research"
 permalink: /research/
 ---
 
-<div style="margin-left: 40px;">
+<div style="margin-left:40px;" markdown="1">
 
 ## Working Papers
 
