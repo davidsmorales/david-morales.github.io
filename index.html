@@ -22,6 +22,23 @@
       <p>
         Welcome to my academic website! I'm a Ph.D. candidate in economics at the Toulouse School of Economics. My research focuses on labor markets, informality, financial frictions, and firm dynamics. 
       </p>
+      <div class="contact-info">
+        <ul>
+            <li>
+            <i class="fas fa-university"></i>
+            Toulouse School of Economics
+            </li>
+            <li>
+            <i class="fas fa-envelope"></i>
+            <a href="#" id="reveal-email">Click to reveal email</a>
+            </li>
+
+            <li>
+            <i class="fas fa-map-marker-alt"></i>
+            Toulouse, France
+            </li>
+        </ul>
+        </div>
     </div>
   </section>
 
@@ -60,5 +77,14 @@
 
     <h3>Informality as a Buffer Shock</h3>
   </section>
+
+<script>
+  document.getElementById("reveal-email").addEventListener("click", function(event) {
+    event.preventDefault();
+    this.textContent = "your.email@domain.com";
+    this.setAttribute("href", "mailto:your.email@domain.com");
+  });
+</script>
+
 </body>
 </html>
