@@ -112,12 +112,14 @@ h3 small {
 }
 
 .abstract {
-  margin-top: 5px; /* controls space between title and Abstract button */
+  margin-top: 2px; /* reduce space above Abstract button */
 }
 
 .abstract p {
-  text-align: justify; /* keeps the abstract text justified */
+  text-align: justify;
+  margin-top: 5px; /* keeps small gap between Abstract button and text */
 }
+
 
 
 
