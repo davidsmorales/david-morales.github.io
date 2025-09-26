@@ -25,7 +25,6 @@
         <div class="contact-info">
             <p>Toulouse School of Economics</p>
             <p><a href="#" id="reveal-email">Email</a></p>
-            <p>Toulouse, France</p>
         </div>
     </div>
   </section>
@@ -69,10 +68,13 @@
 <script>
   document.getElementById("reveal-email").addEventListener("click", function(event) {
     event.preventDefault();
-    this.textContent = "david.morales.dfmr@gmail.com"; 
-    this.setAttribute("href", "mailto:david.morales.dfmr@gmail.com");
+    this.textContent = "your.email@domain.com";  // replace with your email
+    this.setAttribute("href", "mailto:your.email@domain.com");
+    this.style.fontWeight = "normal";            // remove bold after reveal
+    this.style.textDecoration = "none";          // remove underline after reveal
   });
 </script>
+
 
 </body>
 </html>
