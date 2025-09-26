@@ -78,8 +78,8 @@ h1.research-title {
 }
 
 .contact-info a {
-  font-weight: bold !important;       /* force bold */
-  text-decoration: underline !important; /* force underline */
+  font-weight: bold !important;       
+  text-decoration: underline !important; 
   color: inherit !important;          
   cursor: pointer;
 }
@@ -91,11 +91,12 @@ h3 small {
 
 .paper-title {
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: underline !important;
   color: inherit; /* black */
 }
 
 .coauthors {
+  font-weight: bold;
   font-size: 0.9em;
   font-weight: normal;
   margin-left: 5px;
@@ -108,8 +109,8 @@ h3 small {
 
 .coauthor {
   font-weight: bold;
-  text-decoration: underline;
-  color: black;   /* force black */
+  text-decoration: underline !important;
+  color: black;  
 }
 
 
