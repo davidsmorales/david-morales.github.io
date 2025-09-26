@@ -92,7 +92,7 @@ h3 small {
 .paper-title {
   font-weight: bold;
   text-decoration: underline;
-  color: inherit;   /* no blue */
+  color: inherit; /* black */
 }
 
 .coauthors {
@@ -109,7 +109,7 @@ h3 small {
 .coauthor {
   font-weight: bold;
   text-decoration: underline;
-  color: inherit;   /* remove purple/blue */
+  color: black;   /* force black */
 }
 
 
