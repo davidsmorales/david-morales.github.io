@@ -89,30 +89,29 @@ h3 small {
   font-size: 0.9em; /* slightly smaller */
 }
 
-.paper {
-  margin-bottom: 30px; /* space between papers */
-}
-
-.paper h3 {
-  margin-bottom: 2px; /* tighter gap before abstract */
+.paper-title {
   font-weight: bold;
+  text-decoration: underline;
+  color: inherit;   /* no blue */
 }
 
-.paper h3 .coauthors {
-  font-weight: normal;   /* not bold */
-  font-size: 0.95em;     /* slightly smaller than title */
+.coauthors {
+  font-size: 0.9em;
+  font-weight: normal;
+  margin-left: 5px;
 }
 
-.abstract summary {
-  cursor: pointer;
-  font-weight: 500;
-  margin-top: 0;   /* no extra top margin */
+.coauthors em {
+  font-style: italic;
+  font-weight: normal;
 }
 
-.abstract p {
-  text-align: justify;   /* justify text */
-  margin-top: 5px;       /* small space above paragraph */
+.coauthor {
+  font-weight: bold;
+  text-decoration: underline;
+  color: inherit;   /* remove purple/blue */
 }
+
 
 
 
