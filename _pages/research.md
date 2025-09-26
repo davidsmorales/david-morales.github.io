@@ -42,3 +42,5 @@ permalink: /research/
 </details>
 
 ### Informality as a buffer shock 
+
+</div>
